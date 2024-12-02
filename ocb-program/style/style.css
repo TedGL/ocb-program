@@ -1,0 +1,30 @@
+/* custom.css */
+
+/* Override Bootstrap colors */
+.bg-dark-subtle {
+    background-color: #ff5733 !important; /* Custom background color */
+  }
+  
+  .text-secondary {
+    color: #33c1ff !important; /* Custom text color */
+  }
+  
+  .btn-outline-info {
+    border-color: #ff5733 !important;
+    color: #ff5733 !important;
+  }
+  
+  .btn-outline-info:hover {
+    background-color: #ff5733 !important;
+    color: #fff !important;
+  }
+  
+  .btn-outline-light {
+    border-color: #33c1ff !important;
+    color: #33c1ff !important;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #33c1ff !important;
+    color: #fff !important;
+  }
