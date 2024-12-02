@@ -1,30 +1,93 @@
 /* custom.css */
 
-/* Override Bootstrap colors */
+/* Override Bootstrap colors with Christmas theme */
+.text-secondary {
+  color: #008000 !important; /* Christmas green text */
+}
+
+/* Additional Christmas themed text colors */
+.text-primary {
+  color: #ff0000 !important; /* Christmas red */
+}
+
+.text-success {
+  color: #008000 !important; /* Christmas green */
+}
+
+.text-danger {
+  color: #ff0000 !important; /* Christmas red */
+}
+
+.text-warning {
+  color: #ffd700 !important; /* Gold */
+}
+
+.text-info {
+  color: #00ced1 !important; /* Turquoise */
+}
+
+.text-light {
+  color: #f8f9fa !important; /* Light */
+}
+
+.text-dark {
+  color: #343a40 !important; /* Dark */
+}
+
+
+/* custom.css */
+
+/* Override Bootstrap background colors with Christmas theme */
+.bg-primary {
+  background-color: #ff0000 !important; /* Christmas red */
+}
+
+.bg-success {
+  background-color: #008000 !important; /* Christmas green */
+}
+
+.bg-danger {
+  background-color: #ff0000 !important; /* Christmas red */
+}
+
+.bg-warning {
+  background-color: #ffd700 !important; /* Gold */
+}
+
+.bg-info {
+  background-color: #00ced1 !important; /* Turquoise */
+}
+
+.bg-light {
+  background-color: #f8f9fa !important; /* Light */
+}
+
+.bg-dark {
+  background-color: #343a40 !important; /* Dark */
+}
+
+/* Custom background color for subtle dark */
 .bg-dark-subtle {
-    background-color: #ff5733 !important; /* Custom background color */
-  }
-  
-  .text-secondary {
-    color: #33c1ff !important; /* Custom text color */
-  }
-  
-  .btn-outline-info {
-    border-color: #ff5733 !important;
-    color: #ff5733 !important;
-  }
-  
-  .btn-outline-info:hover {
-    background-color: #ff5733 !important;
-    color: #fff !important;
-  }
-  
-  .btn-outline-light {
-    border-color: #33c1ff !important;
-    color: #33c1ff !important;
-  }
-  
-  .btn-outline-light:hover {
-    background-color: #33c1ff !important;
-    color: #fff !important;
-  }
+  background-color: #ff0000 !important; /* Christmas red background */
+}
+
+
+.btn-outline-info {
+  border-color: #ff0000 !important; /* Christmas red border */
+  color: #ff0000 !important; /* Christmas red text */
+}
+
+.btn-outline-info:hover {
+  background-color: #ff0000 !important; /* Christmas red background on hover */
+  color: #fff !important; /* White text on hover */
+}
+
+.btn-outline-light {
+  border-color: #008000 !important; /* Christmas green border */
+  color: #008000 !important; /* Christmas green text */
+}
+
+.btn-outline-light:hover {
+  background-color: #008000 !important; /* Christmas green background on hover */
+  color: #fff !important; /* White text on hover */
+}
