@@ -34,6 +34,10 @@
   color: #343a40 !important; /* Dark */
 }
 
+.text-subtle {
+  color: rgb(138, 138, 138) !important; /* Subtle dark */
+}
+
 
 /* custom.css */
 
